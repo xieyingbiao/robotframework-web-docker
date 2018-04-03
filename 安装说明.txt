@@ -1,0 +1,10 @@
+
+docker pull daocloud.io/jmcn/robotframework-ride-web:latest
+
+docker run -d --rm --name="robot" -e WIDTH="1280" -e HEIGHT="720" -v $(pwd)/config:/config:rw -v $(pwd)/robot:/robot -p XXXX:8080 jmcn/robotframework-ride-web
+
+¾µÏñµØÖ·:
+daocloud.io/jmcn/robotframework-ride-web
+À­È¡¾µÏñ:
+docker pull daocloud.io/jmcn/robotframework-ride-web:latest
+
